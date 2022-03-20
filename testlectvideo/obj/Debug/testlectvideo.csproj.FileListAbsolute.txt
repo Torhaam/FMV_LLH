@@ -1,0 +1,17 @@
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\bin\Debug\testlectvideo.exe.config
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\bin\Debug\testlectvideo.exe
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\bin\Debug\testlectvideo.pdb
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\bin\Debug\Vlc.DotNet.Core.dll
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\bin\Debug\Vlc.DotNet.Forms.dll
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.csproj.SuggestedBindingRedirects.cache
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.Properties.Resources.resources
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.csproj.GenerateResource.cache
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.csproj.CoreCompileInputs.cache
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.csproj.CopyComplete
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.exe
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.pdb
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.frmPlay.resources
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.frmMenu.resources
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.csproj.AssemblyReference.cache
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.FormResponsive.resources
