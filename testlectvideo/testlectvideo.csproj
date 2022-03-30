@@ -92,6 +92,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -106,6 +107,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\TexturesCom_SoilSand0165_2_M.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\TexturesCom_InkFull0005_S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\57.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\57-compressed.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

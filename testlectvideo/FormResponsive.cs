@@ -13,10 +13,15 @@ namespace testlectvideo
     public partial class FormResponsive : Form
     {
         private Form activeForm=null;
+        public static FormResponsive instance;
+        public Label l1;
         public FormResponsive()
         {
             InitializeComponent();
+            instance=this;
             customize();
+            
+            l1 = label1;
         }
         private void customize()
         {
@@ -57,11 +62,11 @@ namespace testlectvideo
         private void button1_Click(object sender, EventArgs e)
         {
             openChildForm(new frmPlay());
-           
             hideSubMenu();
         }
         private void openChildForm(Form ChildForm)
         {
+            MainPanel.BackgroundImage = null;
             if(activeForm != null)
             {
                 activeForm.Close();
@@ -73,7 +78,24 @@ namespace testlectvideo
             MainPanel.Controls.Add(ChildForm);  
             MainPanel.Tag = ChildForm;
             ChildForm.BringToFront();
+            /*if(ChildForm is frmPlay)
+            {
+                //((frmPlay)ChildForm).Parent1 = this;
+                ((frmPlay)ChildForm).MainVideo.EndReached += new System.EventHandler<Vlc.DotNet.Core.VlcMediaPlayerEndReachedEventArgs>(changeChapter);
+            }*/
             ChildForm.Show();
         }
+        public void change_chapter(String message)
+        {
+            label1.Text = message;
+        }
+
+        private void startedtime_Tick(object sender, EventArgs e)
+        {
+            if (activeForm is frmPlay) { 
+                l1.Text = frmPlay.chapter1;
+            }
+        }
+
     }
 }

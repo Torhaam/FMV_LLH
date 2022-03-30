@@ -13,5 +13,5 @@ C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\test
 C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.pdb
 C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.frmPlay.resources
 C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.frmMenu.resources
-C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.csproj.AssemblyReference.cache
 C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.FormResponsive.resources
+C:\Users\loupg\Desktop\bureau\VS_test\testlectvideo\testlectvideo\obj\Debug\testlectvideo.csproj.AssemblyReference.cache
