@@ -15,24 +15,28 @@ namespace testlectvideo
         private Form activeForm=null;
         public static FormResponsive instance;
         public Label l1;
+        public Label l2;
+        public Label l3;
         public FormResponsive()
         {
             InitializeComponent();
             instance=this;
-            customize();
+            Customize();
             
-            l1 = label1;
+            l1 = lbl_chap1;
+            l2 = lbl_chap2;
+            l3 = lbl_chap3;
         }
-        private void customize()
+        private void Customize()
         {
             Media_submenu_panel.Visible = false;
             //mettre tout les panel de sous menu à false ici
         }
-        private void frmExit(object sender, FormClosedEventArgs e)
+        private void FrmExit(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
-        private void hideSubMenu()
+        private void HideSubMenu()
         {
             if (Media_submenu_panel.Visible == true)
             {
@@ -44,7 +48,7 @@ namespace testlectvideo
         {
             if (SubMenu.Visible == false)
             {
-                hideSubMenu();
+                HideSubMenu();
                 SubMenu.Visible = true;
             }
             else
@@ -54,21 +58,22 @@ namespace testlectvideo
             //mettre la même méthode pour tout les panels
         }
 
-        private void btn_openmedia_Click(object sender, EventArgs e)
+        private void Btn_openmedia_Click(object sender, EventArgs e)
         {
             ShowSubMenu(Media_submenu_panel);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Btn_Game_Click(object sender, EventArgs e)
         {
-            openChildForm(new frmPlay());
-            hideSubMenu();
+            OpenChildForm(new FrmPlay());
+            HideSubMenu();
         }
-        private void openChildForm(Form ChildForm)
+        private void OpenChildForm(Form ChildForm)
         {
             MainPanel.BackgroundImage = null;
             if(activeForm != null)
             {
+                //ici
                 activeForm.Close();
             }
             activeForm = ChildForm;
@@ -85,17 +90,24 @@ namespace testlectvideo
             }*/
             ChildForm.Show();
         }
-        public void change_chapter(String message)
+        public void Change_chapter(String message)
         {
-            label1.Text = message;
+            lbl_chap1.Text = message;
         }
 
-        private void startedtime_Tick(object sender, EventArgs e)
+        private void Startedtime_Tick(object sender, EventArgs e)
         {
-            if (activeForm is frmPlay) { 
-                l1.Text = frmPlay.chapter1;
+            if (activeForm is FrmPlay) { 
+                l1.Text = FrmPlay.chapter1;
+                l2.Text = FrmPlay.chapter2;
+                l3.Text = FrmPlay.chapter3;
             }
         }
 
+        private void Btn_options_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FormOptions());
+            HideSubMenu();
+        }
     }
 }

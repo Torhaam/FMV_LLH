@@ -42,7 +42,7 @@
             this.startplay_btn.TabIndex = 0;
             this.startplay_btn.Text = "Start";
             this.startplay_btn.UseVisualStyleBackColor = true;
-            this.startplay_btn.Click += new System.EventHandler(this.startplay_btn_Click);
+            this.startplay_btn.Click += new System.EventHandler(this.Startplay_btn_Click);
             // 
             // Btn_ToResponsive
             // 
@@ -66,8 +66,8 @@
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMenu";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmExit);
-            this.Load += new System.EventHandler(this.frmMenu_Load);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmExit);
+            this.Load += new System.EventHandler(this.FrmMenu_Load);
             this.ResumeLayout(false);
 
         }

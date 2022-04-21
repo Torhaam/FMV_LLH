@@ -10,19 +10,19 @@ namespace testlectvideo
             InitializeComponent();
         }
 
-        private void startplay_btn_Click(object sender, EventArgs e)
+        private void Startplay_btn_Click(object sender, EventArgs e)
         {
-            frmPlay frmplay = new frmPlay();
+            FrmPlay frmplay = new FrmPlay();
             this.Dispose();
             frmplay.Show();
         }
 
-        private void frmMenu_Load(object sender, EventArgs e)
+        private void FrmMenu_Load(object sender, EventArgs e)
         {
-            frmPlay frmPlay = new frmPlay();    
+            FrmPlay frmPlay = new FrmPlay();    
             frmPlay.Close();    
         }
-        private void frmExit(object sender, FormClosedEventArgs e)
+        private void FrmExit(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
